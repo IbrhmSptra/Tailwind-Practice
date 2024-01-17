@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Practice CSS</title>
+</head>
+
+<body class="font-popins">
+    <nav>
+        <div class="flex py-6 px-64 justify-between items-center">
+            <div class="brand">
+                <img class="h-[68px]" src="../src/img/logo.png" alt="Logo">
+            </div>
+            <div class="flex gap-12 items-center">
+                <ul class="flex gap-6">
+                    <li>
+                        <a class="text-Body" href="#">For Projects</a>
+                    </li>
+                    <li><a class="text-Body" href="#">For Investors</a></li>
+                </ul>
+                <a class="py-3 px-6 bg-Primary text-white rounded-lg" href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="container px-64">
+            <div class="bg-hero mt-14 py-40 flex flex-col justify-center items-center gap-4">
+                <h1 class="text-6xl font-bold text-Body">Vision Capital</h1>
+                <p class="text-2xl text-Body ">The right way to fund and incubate your DeFi startup</p>
+                <div class="space-x-4 mt-4">
+                    <a class="px-6 py-3 text-white bg-Body rounded-lg" href="#">I Need Funding</a>
+                    <a class="px-6 py-3 text-Primary border border-Primary rounded-lg" href="#">Become an Investor</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container px-64 py-32">
+            <div class="flex justify-between">
+                <h1 class="text-5xl text-Body font-bold max-w-[380px]">Traditional Fundraising
+                    <span class="text-Primary">Doesn't Work</span>
+                    in DeFi
+                </h1>
+                <div class="space-y-3">
+                    <div class="pl-6 pr-32 py-8  flex gap-8 max-w-xl shadow-md">
+                        <p class="text-2xl font-bold text-Primary">01</p>
+                        <p class="max-w-xs text-Body">Without a big budget, it's hard to approach venture investors</p>
+                    </div>
+                    <div class="pl-6 pr-32 py-8  flex gap-4 max-w-xl shadow-md">
+                        <p class="text-2xl font-bold text-Primary">02</p>
+                        <p class="max-w-xs text-Body">VCs don't care about your DeFi idea – only their gains</p>
+                    </div>
+                    <div class="pl-6 pr-32 py-8  flex gap-4 max-w-xl shadow-md">
+                        <p class="text-2xl font-bold text-Primary">03</p>
+                        <p class="max-w-xs text-Body">They force you into selling your tokens at a huge discount…</p>
+                    </div>
+                    <div class="pl-6 pr-32 py-8  flex gap-4 max-w-xl shadow-md">
+                        <p class="text-2xl font-bold text-Primary">04</p>
+                        <p class="max-w-xs text-Body">...Then dump them at the first opportunity</p>
+                    </div>
+                    <div class="pl-6 pr-32 py-8  flex gap-4 max-w-xl shadow-md">
+                        <p class="text-2xl font-bold text-Primary">05</p>
+                        <p class="max-w-xs text-Body">Result: your token collapses. Everyone goes home.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
